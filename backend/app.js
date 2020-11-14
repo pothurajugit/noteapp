@@ -24,6 +24,6 @@ app.use('/student', authRoute);
 app.use('/student', notesRoute);
 app.use('/teacher', notesRoute);
 const port = 8000;
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || 8000, () => {
     console.log(`Server is running on ${port}`)
 });
